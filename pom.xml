@@ -166,7 +166,7 @@
           <!-- add JaCoCo runtime agent to tests and allow basic test coverage report creation, see https://www.jacoco.org/jacoco/trunk/doc/maven.html -->
           <groupId>org.jacoco</groupId>
           <artifactId>jacoco-maven-plugin</artifactId>
-          <version>0.8.10</version>
+          <version>0.8.11</version>
           <executions>
             <execution>
               <id>default-prepare-agent</id>
