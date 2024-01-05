@@ -157,7 +157,7 @@
               <path>
                 <groupId>com.google.errorprone</groupId>
                 <artifactId>error_prone_core</artifactId>
-                <version>2.24.0</version>
+                <version>2.24.1</version>
               </path>
             </annotationProcessorPaths>
           </configuration>
@@ -245,7 +245,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jxr-plugin</artifactId>
-        <version>3.3.1</version>
+        <version>3.3.2</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
