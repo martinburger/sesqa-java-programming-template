@@ -8,7 +8,7 @@ on:
 env:
   JDK_VERSION: '17'
   JDK_DIST: 'temurin'
-      
+
 jobs:
 
   submit:
@@ -26,4 +26,4 @@ jobs:
           distribution: ${{ env.JDK_DIST }}
           cache: 'maven'
       - name: Submit Dependency Snapshot
-        uses: advanced-security/maven-dependency-submission-action@v3
+        uses: advanced-security/maven-dependency-submission-action@v4
